@@ -5,14 +5,14 @@
 ;
 LIBRARY "XINPUT1_4.dll"
 EXPORTS
-DllMain
-XInputGetState
-XInputSetState
-XInputGetCapabilities
-XInputEnable
-XInputGetBatteryInformation
-XInputGetKeystroke
-XInputGetAudioDeviceIds
+DllMain @1
+XInputGetState @2
+XInputSetState @3
+XInputGetCapabilities @4
+XInputEnable @5
+XInputGetBatteryInformation @6
+XInputGetKeystroke @7
+XInputGetAudioDeviceIds @8
 ;ord_100 @100
 ;ord_101 @101
 ;ord_102 @102
